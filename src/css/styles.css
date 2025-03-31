@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container Styling */
+  .container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Question Styling */
+  .question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Emoji Container */
+  .emoji-container {
+    background-color: #d8a7e0; /* Purple background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .emoji {
+    width: 100px;
+  }
+  
+  /* Options Section */
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option {
+    text-align: center;
+  }
+  
+  .option p {
+    font-size: 16px;
+  }
+  
+  /* Buttons Styling */
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .btn-a {
+    background-color: #6a1b9a; /* Dark purple */
+    color: white;
+  }
+  
+  .btn-b {
+    background-color: #ffb300; /* Yellow-orange */
+  }
+  
