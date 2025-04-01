@@ -7,8 +7,34 @@ body {
     align-items: center;
     height: 100vh;
   }
+
+  /* general components */
+  .primary-btn {
+    padding: 1.5rem 3rem;
+    background-color: red;
+    font-size: 2rem;
+
+  }
+
+  .image-container {
+    width: 20vw;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
   
-  /* Container Styling */
+  /* HOME page */
+
+
+
+
+
+  /* QUESTION page */
+  /*  Container Styling */
   .container {
     text-align: center;
     width: 80%;

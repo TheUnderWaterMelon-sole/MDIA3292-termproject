@@ -1,7 +1,11 @@
 // Home.jsx
 
 import React from "react";
+import {Link} from "react-router-dom";
 import crochetMonster from '../assets/crochet-creature.png?url';
+
+// Styles
+import '../css/styles.css';
 
 function Home() {
     return (
@@ -13,7 +17,9 @@ function Home() {
             <img src={crochetMonster} alt="chrocheted cute monster" />
         </div>
         <p>Some explanation about the site goes here</p>
-         <button>Click</button>
+        <Link to="/questions">
+        <button className="primary-btn">Click</button>
+      </Link>
     </div>
     
     )
