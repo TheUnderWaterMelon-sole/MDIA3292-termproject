@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Question from './pages/Question';
-// import Result from './pages/Result';
+import Results from './pages/Results';
 // import End from './pages/End';
 
 function App() {
@@ -13,9 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/questions" element={<Question />} />
-        {/* Uncomment and add other routes as needed */}
-        {/* <Route path="/about" element={<Result />} />
-        <Route path="/team" element={<End />} /> */}
+        <Route path="/results" element={<Results />} />
+        {/*<Route path="/team" element={<End />} /> */}
       </Routes>
   </Router>
 );

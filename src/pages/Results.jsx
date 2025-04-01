@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import crochetMonster from '../assets/crochet-creature.png?url';
+import resultsImage from '../assets/results-image.png?url';
 
 // Styles
 import '../css/styles.css';
@@ -9,15 +9,22 @@ function Results() {
     return (
 
 
-    <div>
-        <h1>This is the Results page</h1>
+    <div className="container results-container">
+        <h1>What to know how you did?</h1>
         <div className="image-container">
-            <img src={crochetMonster} alt="chrocheted cute monster" />
+            <img src={resultsImage} alt="chrocheted cute monster" />
         </div>
         <p>Some explanation about the site goes here</p>
-        <Link to="/end">
-        <button className="primary-btn">Click</button>
-      </Link>
+     
+        <div className="button-wrapper">
+            <Link to="/end">
+             <button className="primary-btn">Click</button>
+            </Link>
+            <Link to="/">
+            <button className="home-btn">Go Home</button>
+            </Link>
+        </div>
+       
     </div>
     
     )

@@ -9,10 +9,16 @@ body {
   }
 
   /* general components */
-  .primary-btn {
+  .primary-btn, .home-btn {
     padding: 1.5rem 3rem;
     background-color: red;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+
+  }
+
+  .home-btn {
+    background-color: #d8a7e0;
 
   }
 
@@ -37,8 +43,7 @@ body {
   /*  Container Styling */
   .container {
     text-align: center;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
   }
   
   /* Question Styling */
