@@ -5,14 +5,17 @@ import { dataQuestions } from '../data/dataQuestions';
 
 function Question() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [imageIndex, setImageIndex] = useState(0);
+  const [imageIndex, setImageIndex] = useState(0); // 0 represents imageDefault
   const navigate = useNavigate();
 
   const handleAnswerClick = (change) => {
-    setImageIndex((prev) => prev + change); // Allow going below zero
+    setImageIndex((prev) => {
+      let newIndex = prev + change;
+      return Math.max(-5, Math.min(newIndex, 5)); // Restrict between -5 (img5) and 5 (image05)
+    });
 
     if (currentIndex < dataQuestions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+      setCurrentIndex((prev) => prev + 1);
     } else {
       navigate('/results');
     }
