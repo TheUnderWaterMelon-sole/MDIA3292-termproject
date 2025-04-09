@@ -1,99 +1,117 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  font-family: 'Arial', sans-serif;
+  background-image: url(../assets/Background-sm.jpeg);
+  background-size: cover;
+  background-color: #ffffff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-  /* general components */
-  .primary-btn, .home-btn {
-    padding: 1.5rem 3rem;
-    background-color: red;
-    font-size: 1.2rem;
-    margin: 0 1rem;
+/* general components */
+.primary-btn,
+.home-btn {
+  padding: 1.5rem 3rem;
+  background-color: rgb(254, 138, 55);
+  border-radius: 15px;
+  border: none;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
 
-  }
+/* image */
+.image-container {
 
-  .home-btn {
-    background-color: #d8a7e0;
-
-  }
-
-  .image-container {
-    width: 20vw;
-    height: auto;
-    overflow: hidden;
-  }
-
-  .image-container img {
-    width: 100%;
-  }
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  max-height: 40vh;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 3%;
   
-  /* HOME page */
+
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+/*  Container Styling */
+.container {
+  text-align: center;
+  width: 100%;
+
+}
 
 
 
+/* HOME page */
+
+.home-btn {
+  background-color: #d8a7e0;
+}
+
+/* QUESTION page */
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  width: 60vw;
+}
+.answers-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
 
-  /* QUESTION page */
-  /*  Container Styling */
-  .container {
-    text-align: center;
-    width: 100%;
-  }
-  
-  /* Question Styling */
-  .question {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  /* Emoji Container */
-  .emoji-container {
-    background-color: #d8a7e0; /* Purple background */
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-  }
-  
-  .emoji {
-    width: 100px;
-  }
-  
-  /* Options Section */
-  .options {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .option {
-    text-align: center;
-  }
-  
-  .option p {
-    font-size: 16px;
-  }
-  
-  /* Buttons Styling */
-  .btn {
-    margin-top: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  
-  .btn-a {
-    background-color: #6a1b9a; /* Dark purple */
-    color: white;
-  }
-  
-  .btn-b {
-    background-color: #ffb300; /* Yellow-orange */
-  }
-  
+.question {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Answers */
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 5%;
+  padding: 0 3rem 1rem 3rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  margin: 0 1rem;
+}
+/* .option p{
+  font-size: 1.5rem;
+} */
+
+/* Buttons Styling */
+.btn {
+  margin-top: 10px;
+  padding: 2rem 4rem;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-a {
+  background-color: #6a1b9a; /* Dark purple */
+  color: white;
+}
+
+.btn-b {
+  background-color: #ffb300; /* Yellow-orange */
+}

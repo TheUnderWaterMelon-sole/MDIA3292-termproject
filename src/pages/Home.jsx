@@ -18,7 +18,7 @@ function Home() {
         </div>
         <p>Some explanation about the site goes here</p>
         <Link to="/questions">
-        <button className="primary-btn">Click</button>
+        <button className="primary-btn">Let's Begin</button>
       </Link>
     </div>
     

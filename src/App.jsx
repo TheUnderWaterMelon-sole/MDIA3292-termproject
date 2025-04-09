@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Question from './pages/Question';
 import Results from './pages/Results';
-// import End from './pages/End';
+import End from './pages/End';
 
 function App() {
   return (      
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/questions" element={<Question />} />
         <Route path="/results" element={<Results />} />
-        {/*<Route path="/team" element={<End />} /> */}
+        <Route path="/end" element={<End />} />
       </Routes>
   </Router>
 );
