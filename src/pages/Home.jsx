@@ -12,11 +12,11 @@ function Home() {
 
 
     <div>
-        <h1>This is the Home page</h1>
+        <h1>Hi there, How are you these days? </h1>
         <div className="image-container">
             <img src={homeImage} alt="chrocheted cute monster" />
         </div>
-        <p>Some explanation about the site goes here</p>
+        <p>Pick the answer that is the most accurate, even if it's not the perfect anser</p>
         <Link to="/questions">
         <button className="primary-btn">Let's Begin</button>
       </Link>
