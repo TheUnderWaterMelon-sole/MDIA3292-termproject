@@ -9,19 +9,19 @@ function Results() {
     return (
 
 
-    <div className="container results-container">
+    <div className="results-container">
         <h1>What to know how you did?</h1>
         <div className="image-container">
             <img src={resultsImage} alt="chrocheted cute monster" />
         </div>
-        <p>Some explanation about the site goes here</p>
+        <p>Don't worry! Thanks for telling us your mind.</p> 
      
         <div className="button-wrapper">
-            <Link to="/end">
-             <button className="primary-btn">Click</button>
-            </Link>
             <Link to="/">
             <button className="home-btn">Go Home</button>
+            </Link>
+            <Link to="/end">
+             <button className="primary-btn">Next</button>
             </Link>
         </div>
        
