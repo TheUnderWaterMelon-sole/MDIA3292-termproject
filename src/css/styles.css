@@ -27,8 +27,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40vw;
-  max-height: 40vh;
+  width: 600px;
+  max-height: 400px;
   overflow: hidden;
   border-radius: 20px;
   margin: 3%;
