@@ -1,31 +1,30 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import endImage from '../assets/end-image.gif';
+import endVideo from '../assets/8minutevideo.mp4';
 
 // Styles
 import '../css/styles.css';
 
 function End() {
     return (
-
-
-    <div className="container end-container">
-        <h1>Put "8min" video here</h1>
-        <div className="image-container">
-            <img src={endImage} alt="chrocheted cute monster" />
+        <div className="end-container">
+            <h1>Well done! Wanna give us one more minute??</h1>
+            
+            <div className="video-container">
+                <video controls width="100%" height="auto">
+                    <source src={endVideo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <br/>
+        
+            <div className="button-wrapper">
+                <Link to="/">
+                    <button className="home-btn">Go Home</button>
+                </Link>
+            </div>
         </div>
-        <p>Some explanation about the site goes here</p>
-     
-        <div className="button-wrapper">
-            <Link to="/">
-            <button className="home-btn">Go Home</button>
-            </Link>
-        </div>
-       
-    </div>
-    
-    )
-       
+    );
 }
 
 export default End;
