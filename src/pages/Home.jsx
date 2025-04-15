@@ -16,7 +16,7 @@ function Home() {
         <div className="image-container">
             <img src={homeImage} alt="chrocheted cute monster" />
         </div>
-        <p>Pick the answer that is the most accurate, even if it's not the perfect anser</p>
+        <p>In the next few slides, Pick the answer that is the most accurate, <br></br> even if it's not the perfect answer.</p>
         <Link to="/questions">
         <button className="primary-btn">Let's Begin</button>
       </Link>

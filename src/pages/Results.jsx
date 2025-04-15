@@ -14,14 +14,11 @@ function Results() {
         <div className="image-container">
             <img src={resultsImage} alt="chrocheted cute monster" />
         </div>
-        <p>Don't worry! Thanks for telling us your mind.</p> 
+        <p>Don't worry! You did great. You are doing great</p> 
      
         <div className="button-wrapper">
-            <Link to="/">
-            <button className="home-btn">Go Home</button>
-            </Link>
             <Link to="/end">
-             <button className="primary-btn">Next</button>
+             <button className="primary-btn">One last thing before going home ➡️</button>
             </Link>
         </div>
        
