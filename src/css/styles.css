@@ -117,3 +117,46 @@ body {
 .btn-b {
   background-color: #ffb300; /* Yellow-orange */
 }
+
+/*Result Page */
+.results-container {
+  text-align: center;
+  width: 100%;
+}
+
+.results-container h1 {
+  font-size: 2.5rem;
+}
+
+.results-container p {
+  font-size: 1.2rem;
+}
+
+.results-container button  {
+  background-color:rgb(40, 99, 128);
+  color:#ffffff;
+}
+
+/*End Page*/
+.end-container p {
+ font-size: 1.4rem;
+ font-weight: bold;
+}
+/*end video*/
+.end-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+video {
+  width: 500px;
+  height: 700px;
+  max-width: 70%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.end-container button {
+  background-color:rgb(40, 99, 128);
+  color:#ffffff;
+}
